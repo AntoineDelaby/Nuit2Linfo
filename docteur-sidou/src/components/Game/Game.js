@@ -15,6 +15,10 @@ export const Game = () => {
         
       </main>
       <SlidingGrid/>
+      <InfoSection/>
+      <Sidate/>
+      <Info2Section />
+      <ReseauSection />
       <Footer />
       </>
     );
