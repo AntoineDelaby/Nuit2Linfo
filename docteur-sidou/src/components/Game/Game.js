@@ -12,13 +12,12 @@ export const Game = () => {
       <Header/>
 
       <main role="main">
-        
-      </main>
       <SlidingGrid/>
       <InfoSection/>
       <Sidate/>
       <Info2Section />
       <ReseauSection />
+      </main>
       <Footer />
       <script type="text/javascript" src="../../resources/scripts/responsee.js"></script>
       <script type="text/javascript" src="../../resources/css/owl-carousel/owl.carousel.js"></script>
