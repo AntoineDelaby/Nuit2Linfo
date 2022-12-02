@@ -1,6 +1,5 @@
 import './App.css';
 import {Game} from './components/Game/Game.js';
-import {Index} from './components/Index/Index.js';
 import { Error404 } from './Error404';
 import { Routes, Route } from "react-router-dom";
 import { About } from './components/About/About';
@@ -14,7 +13,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Game/>} />
-        <Route path="/index" element={<Index/>} />
+        <Route path="/index" element={<Game/>} />
         <Route path="/about-sida" element={<About/>} />
         <Route path="/services" element={<Services/>} />
         <Route path="/contact" element={<Contact/>} />
