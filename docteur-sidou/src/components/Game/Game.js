@@ -20,6 +20,9 @@ export const Game = () => {
       <Info2Section />
       <ReseauSection />
       <Footer />
+      <script type="text/javascript" src="../../resources/scripts/responsee.js"></script>
+      <script type="text/javascript" src="../../resources/css/owl-carousel/owl.carousel.js"></script>
+      <script type="text/javascript" src="../../resources/scripts/template-scripts.js"></script>
       </>
     );
 }
